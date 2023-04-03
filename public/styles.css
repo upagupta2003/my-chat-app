@@ -1,0 +1,20 @@
+/* styles.css */
+:root {
+    --light-background: #ffffff;
+    --light-text: #000000;
+    --dark-background: #212121;
+    --dark-text: #ffffff;
+  }
+  
+  body[data-theme="light"] {
+    background-color: var(--light-background);
+    color: var(--light-text);
+  }
+  
+  body[data-theme="dark"] {
+    background-color: var(--dark-background);
+    color: var(--dark-text);
+  }
+  
+  /* Add styles for chat window, input, and buttons */
+  
